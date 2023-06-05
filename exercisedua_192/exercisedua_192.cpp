@@ -17,3 +17,8 @@ public:
 	void tambahkanBuku(const std::string& judul) {
 		bukuPengarang.push_back(judul);
 	}
+
+	void tampilkanPenerbit() const {
+		std::cout << "Daftar penerbit \"" << namaPengarang << "\":" << ::endl;
+		for (cons auto& penerbit : penerbitPengarang) {
+		
