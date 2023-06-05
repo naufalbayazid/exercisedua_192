@@ -21,4 +21,7 @@ public:
 	void tampilkanPenerbit() const {
 		std::cout << "Daftar penerbit \"" << namaPengarang << "\":" << ::endl;
 		for (cons auto& penerbit : penerbitPengarang) {
+			std::cout << penerbit->masukkanNamaPenerbit() << endl;
+		}
+	}
 		
