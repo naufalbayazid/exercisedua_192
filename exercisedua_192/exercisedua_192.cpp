@@ -8,6 +8,6 @@ public:
 	Pengarang(const std::string& nama) : namaPengarang(nama) {}:
 	std::string getNamaPengarang() const {
 		return namaPengarang;
-	}
+	} 
 
 	
